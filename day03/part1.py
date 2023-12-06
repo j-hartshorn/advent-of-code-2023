@@ -61,6 +61,6 @@ if __name__ == "__main__":
 
     assert calculate_part_sum(test_input) == 4361
 
-    with open("python/day3/input.txt") as f:
+    with open("day03/input.txt") as f:
         input_string = f.read()
         print(calculate_part_sum(input_string))

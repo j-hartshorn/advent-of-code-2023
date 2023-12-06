@@ -41,5 +41,5 @@ def test_calculate_total_power():
 
 
 if __name__ == "__main__":
-    with open("python/day2/input.txt", "r") as f:
+    with open("day02/input.txt", "r") as f:
         print(calculate_total_power(f.read()))

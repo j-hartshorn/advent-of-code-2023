@@ -1,5 +1,6 @@
 black
 ipykernel
+loguru
 numba
 numpy
 pydantic

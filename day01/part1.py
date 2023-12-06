@@ -27,5 +27,5 @@ def test_retrieve_calibration():
 
 
 if __name__ == "__main__":
-    with open("day1/input.txt", "r") as f:
+    with open("day01/input.txt", "r") as f:
         print(retrieve_calibration(f.read()))

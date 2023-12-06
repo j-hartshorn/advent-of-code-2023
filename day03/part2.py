@@ -131,6 +131,6 @@ if __name__ == "__main__":
 
     assert total_gear_ratio(test_input) == 467835
 
-    with open("python/day3/input.txt") as f:
+    with open("day03/input.txt") as f:
         input_string = f.read()
         print(total_gear_ratio(input_string))

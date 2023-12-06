@@ -41,6 +41,6 @@ Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11"""
 
     assert total_scratchcards(test_input) == 30
 
-    with open("python/day4/input.txt") as f:
+    with open("day04/input.txt") as f:
         input_string = f.read()
         print(total_scratchcards(input_string))

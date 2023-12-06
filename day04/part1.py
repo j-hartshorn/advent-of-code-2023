@@ -32,6 +32,6 @@ if __name__ == "__main__":
 
     assert total_points(test_input) == 13
 
-    with open("python/day4/input.txt") as f:
+    with open("day04/input.txt") as f:
         input_string = f.read()
         print(total_points(input_string))

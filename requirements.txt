@@ -38,6 +38,8 @@ jupyter-core==5.5.0
     #   jupyter-client
 llvmlite==0.41.1
     # via numba
+loguru==0.7.2
+    # via -r requirements.in
 matplotlib-inline==0.1.6
     # via
     #   ipykernel
@@ -46,8 +48,6 @@ mypy-extensions==1.0.0
     # via black
 nest-asyncio==1.5.8
     # via ipykernel
-networkx==3.2.1
-    # via -r requirements.in
 numba==0.58.1
     # via -r requirements.in
 numpy==1.26.2
